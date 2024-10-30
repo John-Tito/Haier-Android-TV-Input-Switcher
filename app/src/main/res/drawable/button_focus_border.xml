@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/button_focus_border.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 当按钮获得焦点时 -->
+    <item android:state_focused="true" android:drawable="@drawable/focused_border" />
+    <!-- 默认状态 -->
+    <item android:drawable="@android:color/transparent" />
+</selector>
